@@ -169,34 +169,39 @@ h2{
 	margin: -42px 0 0 -150px;
 }
 
+.conversion-cta-container {
+	position: absolute;
+	left: 50%;
+	top: 458px;
+	height: 110px;
+	width: 700px;
+	margin: 0 0 0 -350px;
+}
+
 .blog-box {
 	position: absolute;
-	top: 48%;
-	left: 30%;
+	left: 34px;
 	height: 110px;
 	width: 98px;
 }
 
 .portfolio-box {
 	position: absolute;
-	top: 48%;
-	left: 41.1%;
+	left: 210px;
 	height: 110px;
 	width: 98px;
 }
 
 .cv-box {
 	position: absolute;
-	top: 48%;
-	left: 52.4%;
+	left: 386px;
 	height: 110px;
 	width: 98px;
 }
 
 .linkedin-box {
 	position: absolute;
-	top: 48%;
-	left: 63.6%;
+	left: 562px;
 	height: 110px;
 	width: 98px;
 }
