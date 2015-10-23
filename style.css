@@ -183,8 +183,6 @@ h2{
 
 .conversion-cta-container {
 	position: absolute;
-	background-color: red;
-	opacity:.5;
 	left: 50%;
 	top: 54%;
 	height: 110px;
