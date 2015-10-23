@@ -84,7 +84,7 @@ h2{
 #intro{
 	background:url(images/firstBG.jpg) 50% -75px no-repeat fixed;
 	color: white;
-	height: 600px;
+	height: 800px;
 	margin: 0 auto;
 	padding: 160px 0 0 0;
 	position: relative;
@@ -93,7 +93,7 @@ h2{
 #second{
 	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
-	height: 1300px;
+	height: 700px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -117,12 +117,24 @@ h2{
 	padding: 100px 0 0 0;	
 }
 
-#fifth{
+#fourth{
 	background: url(images/fourthBG.jpg) 50% 0 no-repeat;
+	height: 850px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	position: relative;
+}
+
+#fifth{
+	background: url(images/fifthBG.jpg) 50% 0 no-repeat;
 	height: 800px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
 	position: relative;
+}
+
+#first, #second, #third, #fourth {
+	background-size: cover;
 }
 
 .story{
@@ -171,8 +183,10 @@ h2{
 
 .conversion-cta-container {
 	position: absolute;
+	background-color: red;
+	opacity:.5;
 	left: 50%;
-	top: 458px;
+	top: 54%;
 	height: 110px;
 	width: 700px;
 	margin: 0 0 0 -350px;

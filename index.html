@@ -26,9 +26,9 @@ $(document).ready(function(){
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#intro').parallax("50%", 0, 0.1, true);
-	$('#second').parallax("50%", 0, 0.1, true);
-	$('.bg').parallax("50%", 2500, 0.4, true);
-	$('#third').parallax("50%", 2750, 0.3, true);
+	$('#second').parallax("50%", 1400, 0.1, true);
+	$('.bg').parallax("50%", 2400, 0.4, true);
+	$('#third').parallax("50%", 2400, 0.3, true);
 	
 	var deck = new $.scrolldeck({
 		slides: '.slide',
@@ -45,6 +45,7 @@ $(document).ready(function(){
 		<li><a href="#intro" title="Next Section"></a></li>
 	    <li><a href="#second" title="Next Section"></a></li>
 	    <li><a href="#third" title="Next Section"></a></li>
+	    <li><a href="#fourth" title="Next Section"></a></li>
 	    <li><a href="#fifth" title="Next Section"></a></li>
 	</ul>
 	
@@ -66,12 +67,18 @@ $(document).ready(function(){
 	        </div>
 	    </div> <!--.story-->
 	</div> <!--#third-->
+
+	<div id="fourth" class="slide">
+		<div class="story">
+	    	
+	    </div> <!--.story-->
+	</div> <!--#fourth-->
 	
 	<div id="fifth" class="slide">
 		<div class="story">
 			<div class="conversion-cta-container">
-				<a href="http://www.google.com"><div class="blog-box"></div></a>
-				<a href="http://www.google.com"><div class="portfolio-box"></div></a>
+				<a href="http://flaxton.tumblr.com"><div class="blog-box"></div></a>
+				<a href="http://flaxsite.tumblr.com"><div class="portfolio-box"></div></a>
 				<a href="assets/Jack%20Flaxton%20CV%20October%202015.pdf"><div class="cv-box"></div></a>
 				<a href="https://uk.linkedin.com/in/jackflaxton"><div class="linkedin-box"></div></a>
 			</div>
