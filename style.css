@@ -165,7 +165,8 @@ h2{
 }
 
 .bird {
-	position: relative;
+	background: url(BirdSuperSlow.gif) 50% 0 no-repeat fixed;
+        position: relative;
 	top: 60%;
 	left: 40%;
 	height: 40px;
